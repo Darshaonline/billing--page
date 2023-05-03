@@ -1,0 +1,147 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+   
+    
+}
+/*navigation */
+.body{
+    width: 700px;
+   
+}
+
+.navigation{
+    width: auto;
+    height: 200px;
+}
+.nav-img img{
+    width: 700px;
+    height: 300px;
+    position: relative;
+   
+
+}
+
+.nav-button button{
+    position: absolute;
+    top: 237px;
+    left: 531px;
+    border-radius: 20px;
+    padding: 5px 30px;
+    background-color: red;
+    color: white;
+    border: none;
+    font-weight: 900;
+
+}
+.nav-icon img{
+    width: 30px;
+    position: absolute;
+    top: 35px;
+    left: 20px;
+}
+
+.heading h2{
+position: absolute;
+top: 16px;
+left: 257px;
+color: white;
+}
+
+
+.order-details{
+    position: absolute;
+    top: 40%;
+    padding: 50px 50px;
+    line-height:0.5em;
+}
+
+.order-details span{
+    color: greenyellow;
+
+}
+
+/*orderd items */
+.ordered-items{
+    position: absolute;
+    top: 55%;
+    padding: 50px 50px;
+    line-height:0.5em;
+ 
+   
+}
+
+.product-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap:416px;
+    
+}
+
+.ul2 p{
+    background-color: rgb(233, 225, 225);
+    padding: 5px 5px;
+    border-radius: 5px;
+    margin: 7px 7px;
+    
+}
+
+.ul1 p{ 
+    padding: 7px 7px;
+    margin: 0 0;
+}
+
+
+    /*orderd items */
+
+.total-price{
+    position: absolute;
+    top: 83%;
+    padding: 50px 50px;
+    line-height: 1.5em;
+    
+}
+
+.footer-buttons{
+    position: absolute;
+    top: 110%;
+    display: flex;
+    flex-direction:column;
+    padding-bottom: 20px;
+    
+}
+
+
+  
+
+
+.re-order button{
+    margin-left: 130px;
+    padding: 5px 30px;
+    margin-top: 10px;
+   width: 420px;
+   height: 45px;
+   border-radius: 20px;
+   border: none;
+   background-color:#FFE5E5 ;
+   font-weight: 700;
+}
+    
+
+.generate-recipte button{
+    margin-left: 130px;
+    padding: 5px 30px;
+    width: 420px;
+    height: 45px;
+    border-radius: 20px;
+    border: none;
+    background-color: #FF0000;
+    color: white;
+    font-weight: 700;
+    
+    
+
+
+}
+
